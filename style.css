@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px gray;
+    position: fixed;
+    top: 0;
+    min-width: 100vw;
+    background-color: #fff;
+}
+
+nav {
+    margin: 10px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+#header-img {
+    height: 40px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    margin-right: 20px;
+}
+.nav-bar a:hover {
+    color: #17DD4E;
+}
