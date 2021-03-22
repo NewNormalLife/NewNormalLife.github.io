@@ -1,9 +1,3 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-
-/* ================================ HEADER ================================ */
 header {
     width: 100%;
     padding: 0;
@@ -44,11 +38,10 @@ header .nav-bar a {
     margin-right: 20px;
 }
 header .nav-bar a:hover {
+    padding: 0;
     color: #17DD4E;
 }
-/* ================================ CONTENT ================================ */
 
-/* ================================ FOOTER ================================ */
 .site-footer {
     background-color: #26272b;
     bottom: 0;
@@ -184,3 +177,6 @@ header .nav-bar a:hover {
 .social-icons a.dribbble:hover {
     background-color: #ea4c89
 }
+
+
+
