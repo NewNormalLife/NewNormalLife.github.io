@@ -115,7 +115,7 @@ header .nav-bar a:hover {
 }
 
 .site-footer a:hover {
-    color: #3366cc;
+    color: #17DD4E;
     text-decoration: none;
 }
 
@@ -133,7 +133,7 @@ header .nav-bar a:hover {
 }
 
 .footer-links a:active, .footer-links a:focus, .footer-links a:hover {
-    color: #3366cc;
+    color: #17DD4E;
     text-decoration: none;
 }
 
