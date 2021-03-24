@@ -29,11 +29,15 @@ header nav {
     float: left;
 }
 
-.politicas-de-privacidad{
+.politicas-de-privacidad, .terminos-y-condiciones{
     margin-top: 100px;
     padding-left: 150px;
     padding-right: 150px;
     line-height: 40px;
+}
+
+.politicas-de-privacidad a:hover, .terminos-y-condiciones a:hover{
+    color: #17DD4E;
 }
 
 .sobre-rolics button{
