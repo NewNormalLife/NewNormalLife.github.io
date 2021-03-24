@@ -29,6 +29,13 @@ header nav {
     float: left;
 }
 
+.politicas-de-privacidad{
+    margin-top: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    line-height: 40px;
+}
+
 .sobre-rolics button{
     background-color: #17DD4E;
     width: 250px;
