@@ -3,6 +3,8 @@
     margin: 0;
 }
 
+
+
 /* ================================ HEADER ================================ */
 header {
     width: 100%;
@@ -47,6 +49,13 @@ header .nav-bar a:hover {
     color: #17DD4E;
 }
 /* ================================ CONTENT ================================ */
+.banner1{
+    background-image: url("img/Banner1.png");
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 60px;
+    height: 800px;
+    color: white;
+}
 
 /* ================================ FOOTER ================================ */
 .site-footer {
