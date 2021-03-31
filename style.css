@@ -36,7 +36,7 @@ header nav {
     line-height: 40px;
 }
 
-.sobre-rolics button{
+.inicio button{
     background-color: #17DD4E;
     width: 250px;
     height: 75px; /* Green */
@@ -52,7 +52,7 @@ header nav {
     font-family: 'Poppins', sans-serif;
 }
 
-.sobre-rolics button:hover{
+.inicio button:hover{
     background-color: #029c2e;
 }
 
@@ -471,5 +471,27 @@ html {
     background-color: #17DD4E;
   }
 
+/* info */
+.sobre-rolics{
+    height: auto;
+    background: #242424;
+    padding: 5% 7%;
+}
 
+.sobre-rolics img{
+    display: inline-block;
+    box-shadow: -1px 1px 19px rgba(0, 0, 0,0.9);
+    border-radius: 10px;
+}
 
+.sobre-rolics div{
+    width: 60%;
+    float: right;
+    text-align: center;
+    color: rgb(225, 225, 225);
+    line-height: 40px;
+}
+
+.sobre-rolics h2{
+    padding: 60px 10px;
+}
