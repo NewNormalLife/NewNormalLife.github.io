@@ -498,6 +498,10 @@ html {
     padding: 60px 10px;
 }
 
+#info{
+    font-family: 'Exo 2', sans-serif;
+}
+
 #info p {
     font-size: larger;
     text-align: justify;
