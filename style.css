@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,200;1,900&family=Poppins:wght@300&display=swap');
+
 header {
     width: 100%;
     padding: 0;
     position: fixed;
     top: 0;
     background: rgb(255, 255, 255);
-    font-family: 'Poppins', sans-serif;
     display: inline-block;
     align-items: center;
     box-shadow: 0 0 10px gray;
@@ -18,6 +19,7 @@ header nav {
     display: flex;
     flex-grow: 1;
     justify-content: flex-end;
+    font-family: 'Poppins', sans-serif;
 }
 
 #header-img {
@@ -474,7 +476,7 @@ html {
 /* info */
 .sobre-rolics{
     height: auto;
-    background: #26272b;
+    background: whitesmoke;
     padding: 5% 7%;
 }
 
@@ -488,10 +490,30 @@ html {
     width: 60%;
     float: right;
     text-align: center;
-    color: rgb(225, 225, 225);
+    color: #26272b;
     line-height: 40px;
 }
 
-.sobre-rolics h2{
+.sobre-rolics h1{
     padding: 60px 10px;
+}
+
+#info p {
+    font-size: larger;
+    text-align: justify;
+    color:#26272b;
+    font-weight: 400;
+}
+
+#info h1 {
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px whitesmoke;
+    color: black;
+    font-weight: 400;
+    font-size: xx-large; 
+}
+
+#inicio h3 {
+    letter-spacing: 2px;
+    line-height: 30px;
 }
