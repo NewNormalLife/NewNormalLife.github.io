@@ -461,16 +461,21 @@ html {
   .pricing-button:hover,
   .pricing-button:focus {
     background-color: #e1f1ff;
+    text-decoration: none;
+    color: black;
   }
   
   .pricing-button.is-featured {
-    background-color: #6ed88c;
+    background-color: #0ea037;
     color: #fff;
+    text-decoration: none;
   }
   
   .pricing-button.is-featured:hover,
   .pricing-button.is-featured:active {
-    background-color: #17DD4E;
+    background-color: #17dd4e;
+    text-decoration: none;
+    color: #2f2e2e;
   }
 
 /* info */
