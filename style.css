@@ -1,10 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,200;1,900&family=Poppins:wght@300&display=swap');
 header {
     width: 100%;
     padding: 0;
     position: fixed;
     top: 0;
     background: rgb(255, 255, 255);
-    font-family: 'Poppins', sans-serif;
     display: inline-block;
     align-items: center;
     box-shadow: 0 0 10px gray;
@@ -18,6 +18,7 @@ header nav {
     display: flex;
     flex-grow: 1;
     justify-content: flex-end;
+    font-family: 'Poppins', sans-serif;
 }
 
 #header-img {
@@ -29,21 +30,18 @@ header nav {
     float: left;
 }
 
-.politicas-de-privacidad, .terminos-y-condiciones{
+.politicas-de-privacidad {
     margin-top: 100px;
     padding-left: 150px;
     padding-right: 150px;
     line-height: 40px;
 }
 
-.politicas-de-privacidad a:hover, .terminos-y-condiciones a:hover{
-    color: #17DD4E;
-}
-
-.sobre-rolics button{
+.inicio button {
     background-color: #17DD4E;
     width: 250px;
-    height: 75px; /* Green */
+    height: 75px;
+    /* Green */
     border: none;
     color: white;
     text-align: center;
@@ -56,14 +54,15 @@ header nav {
     font-family: 'Poppins', sans-serif;
 }
 
-.sobre-rolics button:hover{
+.inicio button:hover {
     background-color: #029c2e;
 }
 
-.nav-bar button{
+.nav-bar button {
     background-color: #17DD4E;
     width: 100px;
-    height: 40px; /* Green */
+    height: 40px;
+    /* Green */
     border: none;
     color: white;
     text-align: center;
@@ -75,7 +74,7 @@ header nav {
     margin: 10px 2px;
 }
 
-.nav-bar button:hover{
+.nav-bar button:hover {
     background-color: #029c2e;
 }
 
@@ -136,7 +135,9 @@ header .nav-bar a:hover {
     color: #737373
 }
 
-.footer-links a:active, .footer-links a:focus, .footer-links a:hover {
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
     color: #17DD4E;
     text-decoration: none;
 }
@@ -202,7 +203,7 @@ header .nav-bar a:hover {
 .social-icons a:focus,
 .social-icons a:hover {
     color: #fff;
-    background-color: #29aafe
+    background-color: #17DD4E
 }
 
 .social-icons.size-sm a {
@@ -228,33 +229,30 @@ header .nav-bar a:hover {
     background-color: #ea4c89
 }
 
-
-
-
-
-.header{
+.header {
     position: fixed;
     z-index: 2;
 }
 
-.site-footer{
+.site-footer {
     position: relative;
     z-index: 2;
 }
 
-.content{
+.content {
     position: relative;
     z-index: 1;
 }
 
 
 /*top background*/
+
 .intro-header {
     padding-top: 50px;
     /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
-    background: url('img/Banner1.png') no-repeat center center fixed;
+    background: url('img/banner-logo.png') no-repeat center center fixed;
     background-size: cover;
     height: 855px;
 }
@@ -270,7 +268,9 @@ header .nav-bar a:hover {
     padding-bottom: 20%;
 }
 
+
 /*Big header*/
+
 .intro-message>h1 {
     margin-top: -20px;
     font-family: 'Poppins', sans-serif;
@@ -280,6 +280,7 @@ header .nav-bar a:hover {
 
 
 /*small header*/
+
 .intro-message>h3 {
     color: #2f2e2e;
     font-size: large;
@@ -290,35 +291,244 @@ header .nav-bar a:hover {
     .intro-message {
         padding-bottom: 15%;
     }
-
     .intro-message>h1 {
         font-size: 3em;
     }
-
     ul.intro-social-buttons>li {
         display: block;
         margin-bottom: 20px;
         padding: 0;
     }
-
     ul.intro-social-buttons>li:last-child {
         margin-bottom: 0;
     }
-
     .intro-divider {
         width: 100%;
     }
 }
 
+
 /*line*/
+
 hr.intro-divider {
     border: 1px outset rgba(255, 255, 255, 0.2);
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
     width: 100%;
 }
 
-/* social buttons */
+
+/* Pricing */
+
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.background {
+    padding: 0 25px 25px;
+    position: relative;
+    width: 100%;
+}
+
+.background::after {
+    content: '';
+    background: #17DD4E;
+    background: -moz-linear-gradient(top, #17DD4E 0%, #0ea037 100%);
+    background: -webkit-linear-gradient(top, #17DD4E 0%, #0ea037 100%);
+    background: linear-gradient(to bottom, #17DD4E 0%, #0ea037 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#17DD4E', endColorstr='#0ea037', GradientType=0);
+    height: 350px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+@media (min-width: 900px) {
+    .background {
+        padding: 0 0 25px;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    padding: 50px 0 0;
+    max-width: 960px;
+    width: 100%;
+}
+
+.panel {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px 25px;
+    position: relative;
+    width: 100%;
+    z-index: 10;
+}
+
+.pricing-table {
+    box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.08), 0px 20px 31px 3px rgba(0, 0, 0, 0.09), 0px 8px 20px 7px rgba(0, 0, 0, 0.02);
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 900px) {
+    .pricing-table {
+        flex-direction: row;
+    }
+}
+
+.pricing-table * {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.pricing-plan {
+    border-bottom: 1px solid #e1f1ff;
+    padding: 25px;
+}
+
+.pricing-plan li {
+    list-style: none;
+}
+
+.pricing-plan:last-child {
+    border-bottom: none;
+}
+
+@media (min-width: 900px) {
+    .pricing-plan {
+        border-bottom: none;
+        border-right: 1px solid #e1f1ff;
+        flex-basis: 100%;
+        padding: 25px 50px;
+    }
+    .pricing-plan:last-child {
+        border-right: none;
+    }
+}
+
+.pricing-img {
+    margin-bottom: 25px;
+    max-width: 100%;
+}
+
+.pricing-header {
+    color: #888;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.pricing-features {
+    color: #0ea037;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 50px 0 25px;
+}
+
+.pricing-features-item {
+    border-top: 1px solid #e1f1ff;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 15px 0;
+}
+
+.pricing-features-item:last-child {
+    border-bottom: 1px solid #e1f1ff;
+}
+
+.pricing-price {
+    color: #0ea037;
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.pricing-button {
+    border: 1px solid #6ed88c;
+    border-radius: 10px;
+    color: #0ea037;
+    display: inline-block;
+    margin: 25px 0;
+    padding: 15px 35px;
+    text-decoration: none;
+    transition: all 150ms ease-in-out;
+}
+
+.pricing-button:hover,
+.pricing-button:focus {
+    background-color: #e1f1ff;
+    text-decoration: none;
+    color: black;
+}
+
+.pricing-button.is-featured {
+    background-color: #0ea037;
+    color: #fff;
+    text-decoration: none;
+}
+
+.pricing-button.is-featured:hover,
+.pricing-button.is-featured:active {
+    background-color: #17dd4e;
+    text-decoration: none;
+    color: #2f2e2e;
+}
 
 
+/* info */
 
+.sobre-rolics {
+    height: 650px;
+    background: whitesmoke;
+    padding: 5% 7%;
+}
 
+.sobre-rolics img {
+    display: inline-block;
+    box-shadow: -1px 1px 19px rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+}
+
+.sobre-rolics div {
+    width: 60%;
+    float: right;
+    text-align: center;
+    color: #26272b;
+    line-height: 40px;
+}
+
+.sobre-rolics h1 {
+    padding: 60px 10px;
+}
+
+#info {
+    font-family: 'Exo 2', sans-serif;
+}
+
+#info p {
+    font-size: larger;
+    text-align: justify;
+    color: #26272b;
+    font-weight: 400;
+}
+
+#info h1 {
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px whitesmoke;
+    color: black;
+    font-weight: 400;
+    font-size: xx-large;
+}
+
+#inicio h3 {
+    letter-spacing: 2px;
+    line-height: 30px;
+}
