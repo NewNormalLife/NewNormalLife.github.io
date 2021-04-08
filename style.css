@@ -74,14 +74,14 @@ header nav {
 
 header .nav-bar .nav-link {
     text-decoration: none;
-    color: #B38A4C;
+    color: #f9f9f9;
     padding: 20px;
     text-align: center;
     margin-right: 20px;
 }
 
 header .nav-bar a:hover {
-    color: #44DBBD;
+    color: #B38A4C;
 }
 
 .site-footer {
@@ -100,7 +100,7 @@ header .nav-bar a:hover {
 }
 
 .site-footer h6 {
-    color: #fff;
+    color: #B38A4C;
     font-size: 16px;
     text-transform: uppercase;
     margin-top: 5px;
@@ -112,7 +112,7 @@ header .nav-bar a:hover {
 }
 
 .site-footer a:hover {
-    color: #44DBBD;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -132,7 +132,7 @@ header .nav-bar a:hover {
 .footer-links a:active,
 .footer-links a:focus,
 .footer-links a:hover {
-    color: #44DBBD;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -269,7 +269,7 @@ header .nav-bar a:hover {
     margin-top: -20px;
     font-family: 'Poppins', sans-serif;
     font-size: 6em;
-    color: white;
+    color: #B38A4C;
 }
 
 

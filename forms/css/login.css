@@ -95,7 +95,7 @@ body {
     margin-bottom: 12px;
 }
 .form__link {
-    color: #B38A4C;
+    color: #f9f9f9;
     font-size: 15px;
     margin-top: 25px;
     border-bottom: 1px solid #a0a5a8;
@@ -105,7 +105,7 @@ body {
     font-size: 34px;
     font-weight: 700;
     line-height: 3;
-    color: #B38A4C;
+    color: #f9f9f9;
 }
 .description {
     font-size: 14px;
