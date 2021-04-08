@@ -252,7 +252,7 @@ header .nav-bar a:hover {
     /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
-    background: url('img/banner-logo.png') no-repeat center center fixed;
+    background: url('img/NNL-marble.jpeg') no-repeat center center fixed;
     background-size: cover;
     height: 855px;
 }
@@ -485,19 +485,19 @@ html {
 
 /* info */
 
-.sobre-rolics {
+.sobre-nnl {
     height: 650px;
     background: whitesmoke;
     padding: 5% 7%;
 }
 
-.sobre-rolics img {
+.sobre-nnl img {
     display: inline-block;
     box-shadow: -1px 1px 19px rgba(0, 0, 0, 0.9);
     border-radius: 10px;
 }
 
-.sobre-rolics div {
+.sobre-nnl div {
     width: 60%;
     float: right;
     text-align: center;
@@ -505,7 +505,7 @@ html {
     line-height: 40px;
 }
 
-.sobre-rolics h1 {
+.sobre-nnl h1 {
     padding: 60px 10px;
 }
 
